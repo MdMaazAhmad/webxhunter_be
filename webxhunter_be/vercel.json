@@ -1,15 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "webxhunter_be/asgi.py",
-      "use": "@vercel/python"
-    }
+    { "src": "webxhunter_be/asgi.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "webxhunter_be/asgi.py"
-    }
+    { "src": "/(.*)", "dest": "webxhunter_be/asgi.py" }
   ]
 }
